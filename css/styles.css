@@ -655,10 +655,16 @@ img {
 }
 
 .footer-third {
+}
 
+.subscription-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .invite {
+    margin: 0;
     margin-bottom: 20px;
     font-family: 'Roboto';
     font-style: normal;
@@ -669,6 +675,47 @@ img {
     color: var(--simple-white-text-color);
 }
 
+.subscription-input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, .6);
+    outline: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 12px;
+}
+
+.subscription-button {
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    width: 200px;
+    height: 50px;
+    padding-left: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--simple-white-text-color);
+    background-color: var(--accent-color);
+}
+
+.subscription-button-icon {
+    margin-left: 10px;
+    fill: #FFFFFF;
+}
 
 
 
