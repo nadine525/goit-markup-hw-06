@@ -1042,6 +1042,8 @@ img {
 
 .checkbox-input:checked + .checkbox-icon {
     background-color: var(--accent-color);
+    background-origin: border-box;
+    border: transparent;
 }
 
 .modal-form-button {
