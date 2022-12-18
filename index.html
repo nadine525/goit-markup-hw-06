@@ -475,12 +475,12 @@
           <h3 class="invite">Підпишіться на розсилку</h3>
           <form class="subscription-form">
             <input type="email" class="subscription-input" name="email" placeholder="E-mail">
-            <button type="submit" class="subscription-button">Підписатися
-              <svg class="subscription-button-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send-2"></use>
-              </svg>
-            </button>
-          </form>
+              <button type="submit" class="subscription-button">Підписатися
+                <svg class="subscription-button-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send-2"></use>
+                </svg>
+              </button>              
+            </form> 
         </div>
       </div>
     </footer>
@@ -494,6 +494,40 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use>
           </svg>
         </button>
+
+        <h3 class="form-title">Залиште свої дані, ми вам передзвонимо</h3>    
+        <form class="form">
+          <div class="modal-form-area">
+            <label for="name" class="modal-form-lable">Ім'я</label>
+            <input class="modal-form-input" type="text" name="name" id="name">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-Vector-6"></use>
+            </svg>        
+          </div>
+
+          <div class="modal-form-area">
+            <label for="name" class="modal-form-lable">Телефон</label>
+            <input class="modal-form-input" type="text" name="name" id="tel">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-Vector-2-2"></use>
+            </svg>        
+          </div>
+
+          <div class="modal-form-area">
+            <label for="email" class="modal-form-lable">Пошта</label>
+            <input class="modal-form-input" type="email" name="client-email" id="email">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-Vector-3-2"></use>
+            </svg>        
+          </div>
+
+          <div class="modal-form-area">
+            <label for="comment" class="modal-form-lable">Коментар</label>
+            <textarea class="modal-form-textarea" name="comment" rows="5" placeholder="Введіть текст"></textarea>
+          </div>
+
+         <button type="submint">Відправити</button>         
+        </form>
       </div>
     </div>
 
