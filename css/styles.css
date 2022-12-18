@@ -679,7 +679,7 @@ img {
 
 .subscription-input {
     height: 50px;
-    width: 100%;
+    width: 358px;
     border: 1px solid rgba(255, 255, 255, .3);
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0);
@@ -942,7 +942,7 @@ img {
     margin-bottom: 10px;
 }
 
-.modal-form-lable {
+.modal-form-label {
     display: block;    
     top: 0;
     left: 0;
@@ -997,3 +997,50 @@ img {
     resize: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-form-textarea:focus,
+.modal-form-textarea:hover {
+    border-color: var(--accent-color);
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+}
+
+.checkbox-label {
+    position: relative;
+}
+
+.checkbox-input {
+    appearance: none;
+    margin-right: 12px;
+}
+
+.checkbox-icon {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    transform: translate(-50%);
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    fill: tomato;
+
+}
+
+.checkbox-link {
+    color: var(--accent-color);
+    cursor: auto;
+}
+
+.checkbox-input:checked + .checkbox-icon {
+    background-color: var(--accent-color);
+}
+
