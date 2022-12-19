@@ -1025,8 +1025,8 @@ margin-bottom: 20px;
     left: 0;
     top: 3px;
     transform: translate(-50%);
-    width: 16px;
-    height: 15px;
+    /* width: 16px;
+    height: 15px; */
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
     fill: var(--simple-white-text-color);
